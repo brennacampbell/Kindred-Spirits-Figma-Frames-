@@ -1,0 +1,204 @@
+body {
+    font-family: "Playfair Display", serif;
+    font-size: 1em;
+}
+
+.header {
+    background-color: #faf7f2;
+    font-family: "Playfair Display", serif;
+    padding: 1.25em 0; 
+    width: 100%;
+    margin: 0;
+}
+
+.header .container-fluid {
+    padding: 0;
+    max-width: 100%;
+}
+
+.header .row {
+    margin: 0;
+    width: 100%;
+}
+
+.header .col-md-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .btn-custom {
+    padding: 0.625em 2em; 
+    font-size: 1.25em;
+}
+
+.navbar-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+/* * i got this from claude to change my hamburger icon so it would be visible * */
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterloin='round' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.hero {
+    background-color: #f8f9fa;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.hero .container-fluid {
+    padding: 0;
+    max-width: 100%;
+}
+
+.hero .col-12 {
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+
+.hero img {
+    width: 100%;
+    height: 31.25em;
+    object-fit: cover;
+    display: block;
+}
+
+.hero h2 {
+    position: absolute;
+    bottom: 6.25em; 
+    left: 50%;
+    transform: translateX(-50%); /* * i got this from claude * */ 
+    color: white;
+    text-shadow: 0.125em 0.125em 0.25em rgba(0, 0, 0, 0.5); 
+    margin: 0;
+    font-size: 3em;
+    bottom: 3.75em; 
+    font-weight: bold;
+    text-align: center;
+}
+
+.hero .btn-custom {
+    position: absolute;
+    bottom: 1.875em; 
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.25em;
+    padding: 0.625em 1em;  
+}
+
+.about-section {
+    background-color: #f8f9fa;
+    padding: 3.75em 0; 
+}
+
+.about-section .btn-custom {
+    padding:0.625em 1em;
+    display: inline-block;
+}
+
+.about-container {
+    background-color: #e6d9f5;
+    border-radius: 1.875em; 
+    padding: 2em 2.5em; 
+    box-shadow: 0 0.25em 0.375em rgba(0, 0, 0, 0.1); 
+    padding: 2em 1em; 
+    border-radius: 1.25em;
+}
+
+.about-container p {
+    font-size: 1.125em;
+    line-height: 1.6;
+}
+
+.cards-section {
+    background-color: #FFFFFF;
+    padding: 3.75em 0; 
+}
+
+.card {
+    border: none;
+    border-radius: 0.5em; 
+    overflow: hidden;
+    box-shadow: 0 0.125em 0.5em rgba(0, 0, 0, 0.1); 
+    height: 100%;
+}
+
+.card img {
+    width: 100%;
+    height: 15.625em; 
+    object-fit: cover;
+}
+
+.cards-section .btn-custom{
+    padding: 0.5em 1em;
+    font-size: 1.5em;
+}
+
+.card-text {
+    background: linear-gradient(to bottom, #f5f5f5, #e8e8e8);
+    padding: 1.5em;
+    border-radius: 0.5em;
+}
+
+.link-style {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.cards-section a:hover .link-style {
+    color: #6b4c9a;
+}
+
+.mailing-list {
+    background-color: #FFFFFF;
+    padding: 3.75em 1.25em; 
+    margin-bottom: 5em; 
+}
+
+footer {
+    background-color: #faf7f2;
+    color: #000000;
+    padding: 2em 1.25em; 
+    font-size:1.25em;
+}
+
+footer .footer-link {
+    color: #000000;
+    text-decoration: none;
+}
+
+footer .footer-link:hover {
+    color: #6b4c9a;
+    text-decoration: underline;
+}
+
+.footerlogo{
+    width: 16em;
+}
+
+.btn-custom {
+    background-color: #6b4c9a;
+    color: white;
+    border: none;
+    border-radius: 3.125em; 
+    padding: 0.9375em 3.125em; 
+    font-size: 1.25em; 
+    font-weight: 600;
+    display: block;
+    margin: 0 auto;
+}
+
+.btn-custom:hover {
+    background-color: #9b7ec7;
+    color: white;
+}
